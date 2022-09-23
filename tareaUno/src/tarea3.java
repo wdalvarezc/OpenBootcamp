@@ -4,7 +4,7 @@ public class tarea3 {
         persona.setNombre("william");
         persona.setEdad(20);
         persona.setTelefono(456123789);
-        System.out.println("Nombre"+persona.getNombre()+"  Edad"+persona.getEdad()+" Telefono:"+persona.getTelefono());
+        System.out.println("Nombre: "+persona.getNombre()+"  Edad: "+persona.getEdad()+" Telefono: "+persona.getTelefono());
     }
 
 }
