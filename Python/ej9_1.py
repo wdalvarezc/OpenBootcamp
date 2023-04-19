@@ -1,0 +1,6 @@
+paises = input('Digite paises separados por coma:\n')
+paises = paises.split(',')
+paises = set(paises)
+paises = list(paises)
+paises = sorted(paises)
+print(paises)
