@@ -10,7 +10,7 @@ def reset():
     
 root = Tk()
 monitor = ttk.Label(root, foreground="#CF724A",justify="right")
-print(monitor.config())
+
 opcion = StringVar()
 opcion.set(None)
 monitor.grid(column=0,row=0)
